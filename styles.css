@@ -1,49 +1,52 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
-  font-family: system-ui, sans-serif;
-  color: black;
-  background-color: white;
-}
-
-main {
-  padding: 1rem;
-}
-
-h1 {
-  font-weight: bold;
-  font-size: 1.5rem;
 }
 
 footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   height: 20vh;
-  background-color: red;
+  background-color: #CF763B;
   width: 100vw;
   position: fixed;
   bottom: 0;
-  padding: 10px;
+  gap: 150px;
+}
+
+.contactUsSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+.orderTableSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+.orderTableButton {
+  height: 75px;
+  width: 300px;
+}
+.socialMediaSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
 }
 .socialMedia {
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-.footerText {
-  gap: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  gap: 20px;
+  padding-bottom: 20px;
 }
 
 .footerImage {
-  width: 40px;
-  height: 40px;
-  padding: 5px;
-  padding-top: 5px;
+  width: 60px;
+  height: 60px;
 }
