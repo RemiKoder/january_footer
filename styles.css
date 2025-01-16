@@ -1,13 +1,26 @@
 body {
   margin: 0;
+  padding: 0;
+  background-color: #8d8638;
 }
-
+header {
+  margin-top: 0px;
+  height: 10vh;
+  width: 100vw;
+  background-color: #7f3004;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 20vh;
-  background-color: #CF763B;
+  height: 10vh;
+  background-color: #7f3004;
   width: 100vw;
   position: fixed;
   bottom: 0;
@@ -20,16 +33,27 @@ footer {
   justify-content: center;
   align-items: center;
   width: 30%;
+  padding-bottom: 20px;
+}
+.contactUsSection p {
+  margin-bottom: -5px;
+  text-shadow: 3px 3px lightslategray;
 }
 .orderTableSection {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 40%;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .orderTableButton {
   height: 75px;
   width: 300px;
+  background-color: #7f3004;
+  color: white;
+  box-shadow: 10px 5px 5px lightslategray;
 }
 .socialMediaSection {
   display: flex;
@@ -42,11 +66,15 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  width: 50%;
   gap: 20px;
   padding-bottom: 20px;
 }
+.socialMediaImage {
+  width: 70px;
+  height: 70px;
+}
 
-.footerImage {
-  width: 60px;
-  height: 60px;
+@media (max-width: 1025) {
+  
 }
